@@ -15,7 +15,7 @@
   "scripts": {
     "emulate": "npm run build && npx @google-cloud/functions-framework --port 3023 --target=twemoji",
     "build": "tsc -p .",
-    "gcp-build": "pnpm run build"
+    "gcp-build": "yarn run build"
   },
   "dependencies": {
     "twemoji-parser": "14.0.0"
